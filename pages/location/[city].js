@@ -81,7 +81,7 @@ const City = ({hourlyWeather, currentWeather, dailyWeather, city,timezone}) => {
   return (
     <div>
         <Head>
-            <title>{city.name} Weather App - TM</title>
+            <title>{city.name} Weather Now - TM</title>
         </Head>
 
         
