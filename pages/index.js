@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Weather App - TM</title>
+        <title>Weather Now - TM</title>
       </Head>
 
       <div className="home">
