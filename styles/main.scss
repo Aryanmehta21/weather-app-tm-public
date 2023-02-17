@@ -514,3 +514,25 @@ h6 {
     transform: rotate(360deg);
   }
 }
+
+.navbar1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .home-link {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+    font-weight: $f-semi-bold;
+    transition: all 0.3s ease;
+    margin-bottom: 15px;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+
+}
+.navbar1 span{
+  color: blue;
+}

@@ -7,6 +7,7 @@ import moment from 'moment-timezone';
 import WeeklyWeather from '@/components/WeeklyWeather';
 import SearchBox from '@/components/SearchBox';
 import Link from 'next/link';
+import NavBar from '@/components/NavBar';
 
 
 
@@ -81,10 +82,12 @@ const City = ({hourlyWeather, currentWeather, dailyWeather, city,timezone}) => {
         <Head>
             <title>{city.name} Weather App - TM</title>
         </Head>
+
         
 
         <div className="page-wrapper">
             <div className="container">
+                <NavBar/>
                 <Link legacyBehavior href="/">
                     <a className="back-link">&larr; Home</a>
                 </Link>
