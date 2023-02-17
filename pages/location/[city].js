@@ -8,6 +8,7 @@ import WeeklyWeather from '@/components/WeeklyWeather';
 import SearchBox from '@/components/SearchBox';
 import Link from 'next/link';
 import NavBar from '@/components/NavBar';
+import Footer from '@/components/Footer';
 
 
 
@@ -97,7 +98,9 @@ const City = ({hourlyWeather, currentWeather, dailyWeather, city,timezone}) => {
                <WeeklyWeather weeklyWeather={dailyWeather} timezone={timezone}/>
 
             </div>
-
+            <div className="footer__copyright">
+                <Footer/>
+            </div>
         </div>
     </div>
   )
