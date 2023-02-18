@@ -13,6 +13,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Weather Now - TM</title>
+        <meta name="description" content="Check Weather from Weather Now App made from OpenWeathermap API." />
       </Head>
 
       <div className="home">
