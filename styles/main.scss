@@ -749,6 +749,22 @@ h6 {
       }
     }
   }
+  .footer__copyright{
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .footer__copyright span{
+    color:#5e60ce;
+    font-weight: bolder;
+  }
   
 }
 
