@@ -602,6 +602,9 @@ h6 {
           font-size: 1.25rem;
           opacity: 0.9;
           transition: all 0.3s ease;
+          display: flex;
+          align-items: center;
+          justify-content: center;
         }
       }
     }
