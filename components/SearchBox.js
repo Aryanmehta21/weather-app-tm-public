@@ -49,7 +49,7 @@ const SearchBox = ({placeholder}) => {
     <div className="search">
         <input type="text" value={query} onChange={onChange} placeholder={placeholder?placeholder:""}/>
 
-        {query.length>3&&(
+        {query.length>=3&&(
             <ul>
                 {results.length>0?(
                     results.map((city, index) => (
